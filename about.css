@@ -1,0 +1,146 @@
+.background,
+.background * {
+    box-sizing: border-box;
+}
+
+.background {
+    background: var(--registration-form, rgba(69, 218, 27, 0.12));
+    width: 603px;
+    height: 637px;
+    position: relative;
+    overflow: hidden;
+}
+
+.group-1 {
+    position: absolute;
+    inset: 0;
+}
+
+.rectangle-1 {
+    background: #d9d9d9;
+    width: 409px;
+    height: 491px;
+    position: absolute;
+    left: calc(50% - 204.5px);
+    top: 90px;
+}
+
+.rectangle-2 {
+    width: 389px;
+    height: 72px;
+    position: absolute;
+    left: 107px;
+    top: 154px;
+}
+
+.rectangle-22 {
+    background: var(--names, rgba(129, 130, 161, 0.46));
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
+.rectangle-4 {
+    width: 389px;
+    height: 72px;
+    position: absolute;
+    left: 107px;
+    top: 376px;
+}
+
+.rectangle-3 {
+    width: 389px;
+    height: 72px;
+    position: absolute;
+    left: 107px;
+    top: 265px;
+}
+
+.rectangle-5 {
+    width: 389px;
+    height: 72px;
+    position: absolute;
+    left: 107px;
+    top: 496px;
+}
+
+.name {
+    color: #000000;
+    text-align: center;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 120.28%;
+    font-weight: 400;
+    position: absolute;
+    left: 107px;
+    top: 113px;
+}
+
+.register {
+    color: #6f73dd;
+    text-align: center;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 117.74%;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: calc(50% - 204.5px);
+    top: 15px;
+    width: 408px;
+    height: 75px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.email {
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    left: 107px;
+    top: 228px;
+}
+
+.email-span {
+    color: #000000;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 120.28%;
+    font-weight: 400;
+}
+
+.email-span2 {
+    color: #000000;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 36px;
+    line-height: 120.28%;
+    font-weight: 400;
+}
+
+.password {
+    color: #000000;
+    text-align: center;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 120.28%;
+    font-weight: 400;
+    position: absolute;
+    left: 107px;
+    top: 339px;
+}
+
+.re-enter-password {
+    color: #000000;
+    text-align: center;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 120.28%;
+    font-weight: 400;
+    position: absolute;
+    left: 107px;
+    top: 464px;
+}
